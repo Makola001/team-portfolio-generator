@@ -6,8 +6,21 @@ class Employee {
         this.email= email;
     }
    
-    printinfo(){
-        console.log(`this employee is named ${this.name}`)
+    getName(){
+        console.log(this.name);
+    }
+
+
+    getID() {
+        console.log(this.id);
+    }
+
+    getEmail() {
+        console.log(this.email);
+    }
+
+    getRole() {
+        console.log("Employee");
     }
 
 }
